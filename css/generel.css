@@ -16,17 +16,23 @@
   font-weight: 600;
   font-style: normal;
 }
-
-/* .dynapuff {
-  font-family: "DynaPuff", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-} */
-
+body,
 p {
   text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  line-height: 1.8em;
+}
+
+dl {
+  text-align: center;
+}
+
+dd {
+  margin-bottom: 1em;
+  line-height: 1.8em;
 }
 h1,
 h2,
@@ -52,25 +58,15 @@ h3 {
 
 /* overskrift */
 header {
-  /* list-style: none;
-  margin: 0.5em;
-  padding: 0;
-  display: flex;
-  background-color: gray;
-   border: 1px; 
-  max-width: 100%;
-  */
   font-size: larger;
 }
 
 h2 {
   display: grid;
   grid-column: 1/-1;
-  /* border-top: 1px solid gray;
-  border-bottom: 1pz solid gray; */
 }
 h3 {
-  color: rgb(113, 15, 15);
+  color: rgba(75, 61, 61, 0.502);
 }
 img {
   display: grid;
@@ -78,13 +74,6 @@ img {
   max-block-size: 350px;
   align-items: center;
 }
-/* nav ul {
-  list-style: none;
-  margin: 0.5em;
-  padding: 1px;
-  display: flex;
-  border: 1px;
-} */
 
 /* til alt */
 * {

@@ -14,9 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap"
       rel="stylesheet"
     />
-    <!-- <style>
-      @import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap");
-    </style> -->
+
     <link
       href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap"
       rel="stylesheet"
@@ -33,7 +31,7 @@
           <li><a href="opskrifter.html">Opskrifter</a></li>
           <li><a href="thisorthat.html">This or that</a></li>
         </ul>
-        <button class="burger">
+        <button class="burger" aria-label="Åben menu">
           <span class="line"></span>
           <span class="line"></span>
           <span class="line"></span>
@@ -41,46 +39,83 @@
       </nav>
     </header>
     <main>
+      <h3 class="koulen-regular">
+        EN SIMPEL GUIDE TIL HVORDAN DU KOMMER IGANG MED DIN SURDEJSPROCES
+      </h3>
+
       <section>
-        <h2 class="koulen-regular">
-          EN SIMPEL GUIDE TIL HVORDAN DU KOMMER IGANG MED DIN SURDEJSPROCES
-        </h2>
-        <section>
-          <h3 class="bagel-fat-one-regular">HVORDAN DET GÅR</h3>
+        <h2 class="bagel-fat-one-regular">HVORDAN DET GÅR</h2>
+        <div class="order">
           <img src="images/brødformrigtig.png" alt="slutningen" />
+
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
-            praesentium doloremque, voluptate cum molestias exercitationem fugit
-            id quis ab natus?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quo
+            facere quae! Ipsam aperiam sequi veritatis voluptatem accusantium
+            dicta expedita, facere totam quisquam maxime. Facere voluptatem
+            aperiam quo saepe ab omnis vel numquam nisi autem quis iste
+            dignissimos ea tempora commodi nobis ipsum atque neque officiis
+            impedit, dolorem voluptates provident!
           </p>
-        </section>
-
-        <h3 class="bagel-fat-one-regular">DA JEG STARTEDE</h3>
-        <img src="images/brødformforkert.png" alt="starten" />
-        <p>
-          Jeg ved det kan være svært at begynde med surdej, måske du har prøvet
-          kræfter med det og tænkt "Det her kommer aldrig til at lykkes for mig,
-          hvordan får folk det til at se så let ud??".
-        </p>
-
-        <p>
-          Måske har du aldrig prøvet det, men tænker at nu skal det være din
-          tur! Som en god amatør vil jeg prøve at guide dig igennem hvordan du
-          laver et godt surdejsbrød uden nødvendigvis at bruge mange penge på
-          udstyr.
-        </p>
-        <p>
-          Hvis det på nogen måde kan trøste dig i dine måske mange forsøg, så
-          startede mit brød med at se sådan her ud. Jeg ved hvor umådeligt svært
-          det kan føles at synes at alle hjemmesider er på ekspert niveau.
-        </p>
+        </div>
       </section>
-
       <section>
-        <!-- <a href="thisorthat.html" class="knap">Se mere</a> -->
+        <h2 class="bagel-fat-one-regular">DA JEG STARTEDE</h2>
+        <div class="order">
+          <img src="images/brødformforkert.png" alt="starten" />
+
+          <p>
+            Jeg ved det kan være svært at begynde med surdej, måske du har
+            prøvet kræfter med det og tænkt "Det her kommer aldrig til at lykkes
+            for mig, hvordan får folk det til at se så let ud??". Måske har du
+            aldrig prøvet det, men tænker at nu skal det være din tur! Som en
+            god amatør vil jeg prøve at guide dig igennem hvordan du laver et
+            godt surdejsbrød uden nødvendigvis at bruge mange penge på udstyr.
+            Hvis det på nogen måde kan trøste dig i dine måske mange forsøg, så
+            startede mit brød med at se sådan her ud. Jeg ved hvor umådeligt
+            svært det kan føles at synes at alle hjemmesider er på ekspert
+            niveau.
+          </p>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <footer
+      style="
+        background: #111;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+      "
+    >
+      <div style="margin-bottom: 10px">
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          style="color: white; margin: 0 10px"
+        >
+          <i class="fab fa-facebook fa-lg"></i>
+        </a>
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          style="color: white; margin: 0 10px"
+        >
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
+        <a
+          href="mailto:kontakt@dinmail.dk"
+          style="color: white; margin: 0 10px"
+        >
+          <i class="fa fa-envelope fa-lg"></i>
+        </a>
+      </div>
+      <p style="font-size: 14px; color: #aaa">© 2025 Agnethe</p>
+    </footer>
+
     <script src="Js/menu.js"></script>
   </body>
 </html>
